@@ -14,13 +14,13 @@
 </head>
 <body>
     
-    <div class="d-flex justify-content-center py-5 bg-primary">
+    <div class="d-flex justify-content-center py-5 bg-primary vh-100">
         <form class="my-5 d-flex justify-content-center flex-wrap" action="badwords.php" method="post">
             <div>
-                <textarea name="paragraph" id="paragraph" cols="50" rows="20" placeholder="INSERISCI UN TESTO A TUO PIACIMENTO"></textarea>
+                <textarea name="paragraph" id="paragraph" cols="50" rows="20" aria-label="Inserisci un testo" placeholder="INSERISCI UN TESTO A TUO PIACIMENTO"></textarea>
             </div>
             <div class="w-100 my-3">
-                <input class="w-100" type="text" name="badword" id="badword" placeholder="SCEGLI UNA PAROLA DAL TESTO">
+                <input class="w-100" type="text" name="badword" id="badword" aria-label="Scegli una parola del testo" placeholder="SCEGLI UNA PAROLA DAL TESTO">
             </div>
             <button class="w-100" type="submit"> Submit </button>
         </form>
